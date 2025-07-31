@@ -6,11 +6,12 @@
     <title>Home Page</title>
 </head>
 <body>
-    <nav>
+    <x-nav-link>
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
-    </nav>
-    <h1>Hello from the Home Page</h1>
+    </x-nav-link>
+
+    {{ $slot }}
 </body>
 </html>
